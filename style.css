@@ -40,6 +40,11 @@
     }
   }
 
+  @keyframes clickhome {
+    from {background-color: cadetblue;}
+    to {background-color: darkcyan;}
+  }
+
   .home {
     position: fixed;
     top: 50%;
@@ -47,6 +52,11 @@
     margin-top: -50px;
     margin-left: -100px;
     background-color: cadetblue;
+    animation-name: clickhome;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
   }
 
   .home-image{
@@ -336,8 +346,18 @@ footer > P > a > .fa {
     height: 100%;
   }
 
-  .les1, .les2 {
+  .les2 {
+    background-image: url("Images/ElineNauta.jpg");
+  }
+
+  .les2 {
     width: 25%;
+    height: 100%;
+    margin: 0 5px;
+  }
+
+  .les1 {
+    width: 50%;
     height: 100%;
     margin: 0 5px;
   }
