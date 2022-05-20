@@ -263,8 +263,12 @@ footer > p {
   color: cadetblue;
 }
 
-footer > P > a > .fa {
+footer > P > a > .fa, footer > p > a > .fa-brands {
   padding: 0 10px;
+  color: cadetblue;
+}
+
+.fa-brands fa-instagram-square {
   color: cadetblue;
 }
 
